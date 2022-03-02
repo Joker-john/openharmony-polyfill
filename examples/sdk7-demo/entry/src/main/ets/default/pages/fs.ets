@@ -20,7 +20,7 @@ struct FSPage {
   }
 
   private getFs() {
-    return Function("return " + "quire".replace(/^/, "re") + "('fs')")();
+    return globalThis.fs;
   }
 
   async getAppDir() {

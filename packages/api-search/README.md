@@ -1,6 +1,6 @@
 # Usage of API-search tool
 ## I. What APIs are used?
-1. Open [config.json](/config.json) and change content of root into the file path you want to search.  
+1. Open [config.json](config.json) and change content of root into the file path you want to search.  
 (Remember to keep using '\\\\' to divide path segments like 'D:\\\\YourPath')
 2. Open terminal at root folder of api-search, and run:
 ```
@@ -14,7 +14,7 @@ node ./src/search.js
 
 ## II. What methods of an API are used?
 1. Make sure you finish part I.
-2. Open [config.json](/config.json) and change content of apiName into the name of API you want to search.(e.g. YourAPI)
+2. Open [config.json](config.json) and change content of apiName into the name of API you want to search.(e.g. YourAPI)
 3. Open terminal at root folder of api-search and run:
 ```
 node ./src/method_search.js
